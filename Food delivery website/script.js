@@ -1,6 +1,5 @@
-<!-- Code injected by live-server -->
-<!-- <script>
-	// <![CDATA[  <-- For SVG support
+// <!-- Code injected by live-server -->
+<script>
 	if ('WebSocket' in window) {
 		(function () {
 			function refreshCSS() {
@@ -29,10 +28,10 @@
 				console.log('Live reload enabled.');
 				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
 			}
-		})();
+		})()
 	}
 	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.')
 	}
-	// ]]>
-</script>-->
+	
+</script>
