@@ -1,0 +1,33 @@
+h1:hover{
+    color: whitesmoke;
+    text-decoration: underline ivory;
+}
+h1{
+    background-color: grey;
+    display: inline;
+}
+
+#btn1:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#btn2{
+    text-align: center;
+    justify-content: center;
+}
+#btn2:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#btn3:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
