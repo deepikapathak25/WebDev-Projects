@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 20px;
+  background: linear-gradient(to bottom, #343434, #000000);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  padding-top: 3px;
+  padding: 20px;
+  padding-bottom: 332px;
+  height: 2000px;
+}
+
+.login-box {
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 20px 30px;
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+  text-align: center;
+  justify-content: top;
+
+}
+
+.logo {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 530;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+
+.social-btn {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  gap: 30px;
+  width: 50%;
+  height: 45px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc72;
+  background-color: #00000000;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+  
+}
+#phone{
+  text-align: center;
+  
+  justify-content: center;
+}
+#username{
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.social-btn svg {
+  margin-left: 12px;
+}
+
+.social-btn:hover {
+  background-color: #282828;
+}
+
+input {
+  width: 50%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 4px;
+  border: 1px solid #cccccc72;
+  background-color: #121212;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 400;
+  align-items: center;
+}
+
+label {
+  text-align: left;
+  margin-left: 158px;
+  display: block;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.continue-btn {
+  background-color: #1db954;
+  color: black;
+  width: 50%;
+  padding: 12px;
+  border-radius: 30px;
+  font-weight: bold;
+  border: none;
+  height: 45px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+  justify-content: center;
+  
+}
+
+.continue-btn:hover {
+  background-color: #1ed760;
+}
+
+.signup-text {
+  font-size: 14px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: #ccccccc6;
+}
+
+.signup-text a {
+  color: white;
+  text-decoration: underline;
+  
+}
+
+hr {
+  margin: 20px 0;
+  margin-left: 50px;
+  border: 0;
+  border-top: 1px solid #333;
+  width: 500px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  color: #b3b3b3;
+  font-size: 12px;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 1px solid #333;
+  margin-top: 50px;
+}
+
+.footer a {
+  color: #b3b3b3;
+  text-decoration: underline;
+}
+
