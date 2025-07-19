@@ -55,7 +55,7 @@ function startQuiz(){
 function showQuestion(){
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
-    let questionNo = currentQuestionIndex++;
+    let questionNo = currentQuestionIndex;
     questionElement.innerHTML = `${questionNo+1} . ${currentQuestion.question} `;
 
     currentQuestion.answers.forEach(answer => {
